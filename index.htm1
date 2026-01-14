@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的創作空間 - ek0500871</title>
+    <style>
+        /* 基礎美化 */
+        body {
+            line-height: 1.8;
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            color: #333;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        /* 文章容器 */
+        .content-box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+        .meta-info {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 1.6em;
+            text-align: justify;
+        }
+        /* 底部聲明 */
+        footer {
+            margin-top: 50px;
+            font-size: 0.85em;
+            color: #777;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-box">
+        <h1>我的第一篇作品展示</h1>
+        <div class="meta-info">發布日期：2024年5月22日 | 類別：文字創作</div>
+        
+        <p>
+            你好！這是我的個人網站。目前我正在學習如何從 0 開始建立一個屬於自己的空間。
+        </p>
+
+        <p>
+            雖然現在只有文字，但未來這裡會放上我的畫作、衍生作品以及更多原創故事。
+            在這個不受社交平台演算法干擾的地方，我能最大限度地控制內容的呈現方式。
+        </p>
+
+        <p>
+            感謝你的到訪，請期待未來的更新！
+        </p>
+    </div>
+
+    <footer>
+        此空間僅供個人非商業用途，用於展示我的衍生作品和原創作品。嚴禁任何商業用途。
+    </footer>
+
+</body>
+</html>
