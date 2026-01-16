@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章分類 - ek0500871</title>
+    <style>
+        /* 直接沿用 index.html 的漂亮美化 */
+        body {
+            line-height: 1.8;
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            color: #210e00;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #e4c4f2;
+        }
+        .nav-menu { margin-bottom: 20px; text-align: center; }
+        .nav-menu a { color: #6b4ea2; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        
+        .content-box {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 23px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        h2 { border-left: 5px solid #6b4ea2; padding-left: 10px; margin-top: 30px; color: #4a3475; }
+        
+        /* 文章列表樣式 */
+        .post-link {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+        .post-link:hover { background: rgba(107, 78, 162, 0.1); border-radius: 8px; }
+
+        /* 18+ 警告樣式 */
+        .restricted { color: #d9534f; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-menu">
+        <a href="index.html">首頁</a>
+        <a href="post-list.html">文章分類</a>
+        <a href="gallery-list.html">畫作展示</a>
+    </nav>
+
+    <div class="content-box">
+        <h1>文章分類</h1>
+
+        <h2>🌿 原創作品</h2>
+        <a href="#" class="post-link">預留位置：我的第一篇原創故事</a>
+        <a href="#" class="post-link">預留位置：世界觀設定集</a>
+
+        <h2>💫 二創衍生</h2>
+        <a href="#" class="post-link">預留位置：某某作品同人短文</a>
+
+        <h2>🔞 限制級 (18+)</h2>
+        <a href="javascript:void(0);" onclick="checkAge('secret-post.html')" class="post-link restricted">
+            [18+] 限制級內容：點擊前請確認年齡
+        </a>
+    </div>
+
+    <script>
+        function checkAge(url) {
+            var fullPageOverlay = confirm("【警告】此區域包含限制級內容（18+）。\n\n您是否已年滿 18 歲且願意觀看相關內容？");
+            if (fullPageOverlay) {
+                // 如果按確定，就跳轉到該頁面（現在先設個警示）
+                alert("即將進入限制級區域。");
+                // window.location.href = url; // 未來把這裡的註解拿掉即可
+            } else {
+                // 如果按取消
+                alert("未成年請勿進入，將為您返回分類頁面。");
+            }
+        }
+    </script>
+
+</body>
+</html>
