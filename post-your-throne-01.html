@@ -16,11 +16,12 @@
             background-color: #e4c4f2;
         }
         .post-meta {
-            text-align: right;       /* 關鍵：讓文字靠右 */
-            font-size: 0.85em;       /* 稍微縮小一點點，更有資訊感的層次 */
-            color: #888;             /* 顏色稍微變淡，才不會搶了標題的風采 */
-            margin: 15px 0 25px 0;   /* 增加上下間距：上 15px, 下 25px */
-            border-bottom: 1px solid rgba(0,0,0,0.05); /* 加入一條極淡的底線做區隔 */
+            display: flex;       /* 啟動彈性布局 */
+            justify-content: space-between; /* 關鍵:將內容推向左右兩端 */
+            font-size: 0.85em;       
+            color: #888;             
+            margin: 15px 0 25px 0;   
+            border-bottom: 1px solid rgba(0,0,0,0.05); 
             padding-bottom: 10px;
         }
         .nav-menu { margin-bottom: 20px; text-align: center; }
@@ -52,7 +53,10 @@
 
     <div class="content-box">
         <h1>短篇隨筆：美狄亞-暗殺</h1>
-        <div class="post-meta">類別：二創衍生 / 惡女的變身 | 發布日期：2024年</div>
+        <div class="post-meta">
+            <span>類別：二創衍生 / 惡女的變身 </span>
+            <span>發布日期：2026/01/16 </span>
+        </div>
         
         <div class="article-content">
 ★此處的普賽克為賽姬，翻譯不同，特此註明。★
