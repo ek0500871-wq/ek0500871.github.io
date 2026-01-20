@@ -120,7 +120,7 @@
             var fullPageOverlay = confirm("【警告】此區域包含限制級內容（18+）。\n\n您是否已年滿 18 歲且願意觀看相關內容？");
             if (fullPageOverlay) {
                 alert("即將進入限制級區域。");
-                // window.location.href = url; // 等檔案建立好後，把前面的 // 刪掉即可生效
+                window.location.href = url;
             } else {
                 alert("未成年請勿進入，將為您返回分類頁面。");
             }
