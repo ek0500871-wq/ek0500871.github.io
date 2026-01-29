@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品專區 - 名偵探柯南</title>
+    <style>
+        /* 基礎樣式：沿用你的紫色毛玻璃風格 */
+        body {
+            line-height: 1.8;
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            color: #210e00;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #e4c4f2;
+        }
+        .nav-menu { margin-bottom: 20px; text-align: center; }
+        .nav-menu a { color: #6b4ea2; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        
+        .content-box {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 23px rgba(0,0,0,0.1);
+        }
+
+        h1 { color: #4a3475; text-align: center; border-bottom: 2px solid rgba(107, 78, 162, 0.1); padding-bottom: 15px; }
+
+        /* 分隔標題樣式 */
+        .section-title {
+            color: #6b4ea2;
+            font-size: 1.1em;
+            margin: 30px 0 15px 0;
+            padding-left: 10px;
+            border-left: 5px solid #6b4ea2;
+            display: flex;
+            align-items: center;
+        }
+        /* IF線專區換個顏色做區隔 (深藍色) */
+        .section-title.if-line {
+            color: #1a3a5f;
+            border-left-color: #1a3a5f;
+        }
+
+        /* 列表樣式 */
+        .chapter-list { list-style: none; padding: 0; }
+        .chapter-item {
+            background: white;
+            margin: 10px 0;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .chapter-item:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        
+        .chapter-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        .chapter-date { font-size: 0.8em; color: #999; }
+
+        footer { margin-top: 50px; text-align: center; font-size: 0.8em; color: #777; }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-menu">
+        <a href="index.html">首頁</a>
+        <a href="post-list.html">返回分類</a>
+    </nav>
+
+    <div class="content-box">
+        <h1>《名偵探柯南》</h1>
+        
+        <div class="chapter-list">
+            <h3 class="section-title">📌 一般二創隨筆</h3>
+            <div class="chapter-item">
+                <a href="#" class="chapter-link">
+                    <span>(範例文章) 這裡放一般隨筆標題</span>
+                    <span class="chapter-date">2026/01/29</span>
+                </a>
+            </div>
+
+            <h3 class="section-title if-line">✨ IF線專區</h3>
+            <div class="chapter-item">
+                <a href="#" class="chapter-link">
+                    <span>(範例文章) 這裡放IF線文章標題</span>
+                    <span class="chapter-date">2026/01/29</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>此空間僅供個人創作展示，嚴禁商業用途。</footer>
+
+</body>
+</html>
