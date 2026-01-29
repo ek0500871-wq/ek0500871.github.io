@@ -16,7 +16,7 @@
             background-color: #e4c4f2;
         }
 
-        /* 導覽列樣式 (補回) */
+        /* 導覽列樣式 */
         .nav-menu { margin-bottom: 20px; text-align: center; }
         .nav-menu a { color: #6b4ea2; text-decoration: none; margin: 0 15px; font-weight: bold; }
 
@@ -33,7 +33,6 @@
             border: 1px solid rgba(107, 78, 162, 0.2);
             transition: 0.3s;
         }
-        /* 修正：加上了那個點 */
         .work-folder-link:hover {
             background: rgba(107, 78, 162, 0.2);
             transform: translateX(5px);
@@ -118,7 +117,9 @@
         <a href="javascript:void(0);" onclick="checkAge('r18-fan-01.html')" class="post-link restricted">
             🔞 某某二創故事名稱
         </a>
-    </div> <script>
+    </div>
+
+    <script>
         function checkAge(url) {
             var fullPageOverlay = confirm("【警告】此區域包含限制級內容（18+）。\n\n您是否已年滿 18 歲且願意觀看相關內容？");
             if (fullPageOverlay) {
